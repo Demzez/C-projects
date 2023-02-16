@@ -1,0 +1,2 @@
+#!/bin/bash
+PERL5LIB="tests/lcov/libexec/lib/perl5" exec "tests/lcov/libexec/bin/genhtml"  "$@"
